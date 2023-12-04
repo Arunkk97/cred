@@ -1,0 +1,243 @@
+/* *{
+    background-color: black;
+    
+} */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&family=Ephesis&family=Italianno&family=Itim&family=Kaushan+Script&family=Nova+Square&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@700&family=Pacifico&family=Rock+Salt&family=Sriracha&display=swap');
+
+.main {
+    width: 100%;
+    /* container: 100; */
+    background-color: black;
+}
+
+.head {
+    height: 170px;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log {
+    margin-left: 50px;
+}
+
+.logo {
+    width: 49px;
+    height: 66px;
+    /* margin-top: 25px;
+    margin-left: 80px; */
+
+}
+
+.l {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.link {
+    margin-right: 50px;
+}
+
+
+.row1 {
+    height: 300px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.sub1 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 110px;
+
+}
+
+@media(max-width:1000px) {
+    .sub1 {
+        font-size: 60px;
+    }
+}
+
+.row2 {
+    height: 95px;
+    background-color: rgba(39, 19, 1, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub2 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+@media(max-width:800px) {
+    .sub2 {
+        font-size: 15px;
+    }
+}
+
+.row3 {
+    height: 90px;
+    background-color: rgba(39, 1, 16, 0);
+}
+
+.bt {
+    width: 250px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+
+
+}
+
+.bt:hover {
+    opacity: .7;
+}
+
+.row4 {
+    height: 600px;
+    background-color: blueviolet;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content:center; */
+
+    background-image: url('./images/vepN6tCbmqxc3cCNClSmvra9tBI.webp');
+    background-size: contain;
+
+}
+
+.row4a {
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.sub3 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    /* text-align: left; */
+    font-size: 100px;
+
+}
+
+@media(max-width:800px) {
+    .sub3 {
+        font-size: 60px;
+    }
+}
+
+.row4b {
+    text-align: center;
+}
+
+.sub3a {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+
+    font-size: 30px;
+}
+
+.row4c {
+    margin-top: 50px;
+}
+
+.row5 {
+
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: left; */
+    
+}
+.row5a{
+    
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        margin-left: 30px;  
+        margin-top: 30px;  
+    
+}
+.row6 {
+
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.r{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 10px;
+ 
+    
+}
+.r1{
+    background-image: url('./images/tata.png');
+    background-size: cover;
+}
+.r2{
+    background-image: url('./images/aajio.png');
+    background-size: cover;
+   
+}
+.r3{
+    background-image: url('./images/amz.jpg');
+    background-size: cover;
+}
+.r4{
+    background-image: url('./images/download.png');
+    background-size: cover;
+}
+.r5{
+    background-image: url('./images/puma.png');
+    background-size: cover;
+}
+.row7{
+
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px;
+}
+.footerimg{
+    height: 100px;
+}
+.ad{
+    
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        /* text-align: left; */
+        
+    
+      
+}
+@media(max-width:800px){
+    .map{
+        width: 80px;
+        height: 100px;
+    }
+}
